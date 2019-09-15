@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF153C5E232D81170064FD92 /* MyExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF153C5D232D81170064FD92 /* MyExtensions.swift */; };
 		BF6D7F2F232D78E6002C8F2C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6D7F2E232D78E6002C8F2C /* AppDelegate.swift */; };
 		BF6D7F31232D78E6002C8F2C /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = BF6D7F30232D78E6002C8F2C /* art.scnassets */; };
 		BF6D7F33232D78E6002C8F2C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6D7F32232D78E6002C8F2C /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BF153C5D232D81170064FD92 /* MyExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyExtensions.swift; sourceTree = "<group>"; };
 		BF6D7F2B232D78E6002C8F2C /* ARGeoViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARGeoViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF6D7F2E232D78E6002C8F2C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF6D7F30232D78E6002C8F2C /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				BF6D7F37232D78E7002C8F2C /* Assets.xcassets */,
 				BF6D7F39232D78E7002C8F2C /* LaunchScreen.storyboard */,
 				BF6D7F3C232D78E7002C8F2C /* Info.plist */,
+				BF153C5D232D81170064FD92 /* MyExtensions.swift */,
 			);
 			path = ARGeoViewer;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF153C5E232D81170064FD92 /* MyExtensions.swift in Sources */,
 				BF6D7F33232D78E6002C8F2C /* ViewController.swift in Sources */,
 				BF6D7F2F232D78E6002C8F2C /* AppDelegate.swift in Sources */,
 			);
@@ -287,6 +291,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 88ND8SWT25;
 				INFOPLIST_FILE = ARGeoViewer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -304,6 +309,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 88ND8SWT25;
 				INFOPLIST_FILE = ARGeoViewer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
